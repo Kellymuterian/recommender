@@ -1,0 +1,15 @@
+/.venv
+/data_loader.py
+/hybrid.ipynb
+/model.pth
+/preprocess.py
+/product predictions.ipynb
+/test.ipynb
+/test.py
+/testss
+/train2.py
+/trained.pkl
+/training
+/training model.ipynb
+/users.csv
+/__pycache__
