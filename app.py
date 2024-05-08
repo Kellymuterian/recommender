@@ -3,7 +3,7 @@ import mysql.connector
 from auth import login_form
 
 
-st.set_page_config(initial_sidebar_state="collapsed")
+# st.set_page_config(initial_sidebar_state="collapsed")
 # Database connection
 conn = mysql.connector.connect(
     host="localhost",
@@ -28,8 +28,8 @@ def main():
         from sqlalchemy import create_engine
 
         # Download NLTK data (if not already downloaded)
-        # nltk.download('punkt')
-        # nltk.download('stopwords')
+        nltk.download('punkt')
+        nltk.download('stopwords')
 
         search_history = []
 
