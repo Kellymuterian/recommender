@@ -3,9 +3,7 @@ import mysql.connector
 import re
 from mysql.connector import IntegrityError
 from mysql.connector.errors import ProgrammingError
-
-
-
+import hashlib
 
 # Database connection setup
 def init_connection():
@@ -16,10 +14,57 @@ def init_connection():
         database="recommenders"
     )
 
-def validate_email(email):
-    """Validate the email format."""
+def validate_username(username, conn, min_length=3, max_length=20, allowed_chars=r"[a-zA-Z0-9_\-]+", reserved_usernames=None, user_tablename="users", username_col="username"):
+    """Validate a username based on specified criteria.
+
+    Args:
+    - username (str): The username to validate.
+    - conn: MySQL connection object.
+    - min_length (int): Minimum length of the username (default: 3).
+    - max_length (int): Maximum length of the username (default: 20).
+    - allowed_chars (str): Regular expression pattern for allowed characters in the username (default: [a-zA-Z0-9_\-]+).
+    - reserved_usernames (list): List of reserved usernames that are not allowed (default: None).
+
+    Returns:
+    - bool: True if the username is valid and available, False otherwise.
+    """
+    if reserved_usernames is None:
+        reserved_usernames = []
+
+    # Check length
+    if len(username) < min_length or len(username) > max_length:
+        return False
+
+    # Check allowed characters
+    if not re.match(allowed_chars, username):
+        return False
+
+    # Check alphabetic characters count
+    if sum(1 for char in username if char.isalpha()) < 2:
+        return False
+
+    # Check uniqueness
+    cursor = conn.cursor()
+    query = f"SELECT * FROM {user_tablename} WHERE {username_col} = '{username}'"
+    cursor.execute(query)
+    if cursor.fetchone():
+        return False
+
+    return True
+
+
+
+def validate_email(email, conn, email_col="email", user_tablename="users"):
+    """Validate the email format and check for duplicate emails in the database."""
     if not re.match(r"[^@]+@[^@]+\.[^@]+", email):
         return False, "Invalid email address format."
+
+    cursor = conn.cursor()
+    query = f"SELECT * FROM {user_tablename} WHERE {email_col} = '{email}'"
+    cursor.execute(query)
+    if cursor.fetchone():
+        return False, "Email address already exists."
+    
     return True, ""
 
 def validate_password(password):
@@ -37,16 +82,12 @@ def validate_password(password):
         return False, "Password must contain at least one special character."
     return True, ""
 
-
-
-
 def login_success(login_success_message, username, user_id):
     st.success(login_success_message)
     st.session_state["authenticated"] = True
     st.session_state["username"] = username
     st.session_state["user_id"] = user_id
     st.experimental_set_query_params(authenticated=True, username=username)
-
 
 st.session_state.setdefault("authenticated", False)
 st.session_state.setdefault("username", None)
@@ -68,7 +109,6 @@ def get_user_info(conn):
         return username, user_id
     return None, None
 
-
 def is_authenticated():
     authenticated = st.session_state.get("authenticated", False)
     return authenticated
@@ -76,8 +116,6 @@ def is_authenticated():
 def logout():
     st.session_state["authenticated"] = False
     st.session_state["username"] = None
-
-
 
 def login_form(
     conn,
@@ -108,7 +146,10 @@ def login_form(
     login_submit_label: str = "Login",
     login_success_message: str = "Login succeeded :tada:",
     login_error_message: str = "Wrong username/password :x: ",
-    
+    reserved_usernames: list = None,  # List of reserved usernames that are not allowed
+    min_username_length: int = 3,  # Minimum length of the username
+    max_username_length: int = 20,  # Maximum length of the username
+    username_allowed_chars: str = r"[a-zA-Z0-9_\-]+"  # Regular expression pattern for allowed characters in the username
 ):
     st.title(title)
   
@@ -185,20 +226,25 @@ def login_form(
                     ):
                         try:
                             cursor = conn.cursor()
-                            query = f"SELECT * FROM {user_tablename} WHERE {username_col} = '{username}'AND {password_col} = '{password}'"
+                            query = f"SELECT {password_col} FROM {user_tablename} WHERE {username_col} = '{username}'"
                             cursor.execute(query)
-                            data = cursor.fetchall()
-                        except Exception as e:
-                            st.error(str(e))
-                        else:
-                            if len(data) > 0:
-                                user_id = data[0][0]   # Assuming user_id is a key in the result
-                                login_success(login_success_message, username, user_id)
-                                st.rerun()
-
-                                
+                            data = cursor.fetchone()
+                            if data:
+                                hashed_password = data[0]
+                                # Hash the password entered by the user
+                                entered_hashed_password = hashlib.sha256(password.encode()).hexdigest()
+                                if hashed_password == entered_hashed_password:
+                                    user_id_query = f"SELECT user_id FROM {user_tablename} WHERE {username_col} = '{username}'"
+                                    cursor.execute(user_id_query)
+                                    user_id = cursor.fetchone()[0]
+                                    login_success(login_success_message, username, user_id)
+                                    st.rerun()
+                                else:
+                                    st.error(login_error_message)
                             else:
-                                st.error(login_error_message)       
+                                st.error(login_error_message)
+                        except Exception as e:
+                            st.error(str(e))     
                                 
             with create_tab:  # Create new account tab
                 with st.form(key="create"):
@@ -208,7 +254,7 @@ def login_form(
                         help=create_username_help,
                         disabled=st.session_state["authenticated"],
                     )
-                    
+
                     email = st.text_input(
                         label=create_email_label,
                         placeholder=create_email_placeholder,
@@ -223,7 +269,6 @@ def login_form(
                         type="password",
                         disabled=st.session_state["authenticated"],
                     )
-                    
 
                     if st.form_submit_button(
                         label=create_submit_label,
@@ -231,8 +276,23 @@ def login_form(
                         disabled=st.session_state["authenticated"],
                     ):
                         try:
-                             # Validate email
-                            is_valid_email, email_error_message = validate_email(email)
+                            # Validate username
+                            is_valid_username = validate_username(
+                                username,
+                                conn,
+                                min_length=min_username_length,
+                                max_length=max_username_length,
+                                allowed_chars=username_allowed_chars,
+                                reserved_usernames=reserved_usernames,
+                                user_tablename=user_tablename,
+                                username_col=username_col
+                            )
+                            if not is_valid_username:
+                                st.error("Invalid username.")
+                                return
+
+                            # Validate email
+                            is_valid_email, email_error_message = validate_email(email, conn)
                             if not is_valid_email:
                                 st.error(email_error_message)
                                 return
@@ -242,10 +302,12 @@ def login_form(
                             if not is_valid_password:
                                 st.error(password_error_message)
                                 return
-
+                            
+                            # Hash the password
+                            hashed_password = hashlib.sha256(password.encode()).hexdigest()
 
                             cursor = conn.cursor()
-                            query = f"INSERT INTO {user_tablename} ({username_col},{email_col}, {password_col}) VALUES ('{username}','{email}', '{password}')"
+                            query = f"INSERT INTO {user_tablename} ({username_col},{email_col}, {password_col}) VALUES ('{username}','{email}', '{hashed_password}')"
                             cursor.execute(query)
                             conn.commit()
                         except Exception as e:
@@ -254,17 +316,10 @@ def login_form(
                             st.success(create_success_message)
 
 
-                            
+                       
 
 
 
 
-
-
-
-
-
-
-
-
+                       
 
