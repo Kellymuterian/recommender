@@ -1,0 +1,1001 @@
+user_id,product_id,rating,review_text
+114,693,1,Waste of money.
+107,631,2,Would not recommend.
+113,568,1,Poor quality.
+86,451,5,Awesome!
+13,85,3,Decent product.
+125,872,1,Would not recommend.
+34,867,3,"Okay, but could be better."
+84,1041,3,"Okay, but could be better."
+14,827,1,Would not recommend.
+41,923,2,Poor quality.
+120,1012,3,Decent product.
+93,470,4,Excellent quality.
+105,1132,1,Terrible experience.
+103,601,1,Waste of money.
+137,587,4,Highly recommended.
+10,1098,5,Awesome!
+65,1078,5,Awesome!
+152,1111,5,Excellent quality.
+117,1022,1,Waste of money.
+161,455,1,Terrible experience.
+44,1135,2,Poor quality.
+45,858,3,"Okay, but could be better."
+69,774,3,Decent product.
+91,115,5,Great product!
+104,424,2,Poor quality.
+118,350,4,Awesome!
+27,207,3,"Okay, but could be better."
+17,921,4,Fair product.
+54,784,5,Great product!
+112,355,1,Terrible experience.
+51,81,4,Great product!
+72,1103,4,Fair product.
+3,1089,4,Best purchase ever!
+35,786,5,Best purchase ever!
+32,184,4,Great product!
+37,3,2,Disappointing.
+81,1117,4,Excellent quality.
+17,311,2,Would not recommend.
+62,1053,4,Average quality.
+159,458,1,Would not recommend.
+122,857,5,Excellent quality.
+148,120,5,Great product!
+66,331,4,Great product!
+33,416,5,Awesome!
+68,241,1,Disappointing.
+135,1075,3,"Okay, but could be better."
+4,223,3,Fair product.
+96,455,4,Great product!
+123,1120,1,Would not recommend.
+153,406,4,Great product!
+134,782,4,Great product!
+176,626,1,Would not recommend.
+107,446,5,Highly recommended.
+10,88,4,"Okay, but could be better."
+77,1067,4,Excellent quality.
+135,907,5,Highly recommended.
+130,997,3,"Not bad, but not great."
+75,821,3,Fair product.
+6,705,4,Best purchase ever!
+38,1082,3,Decent product.
+125,764,1,Waste of money.
+156,20,2,Would not recommend.
+156,881,1,Poor quality.
+123,568,2,Terrible experience.
+79,786,2,Terrible experience.
+128,60,3,Fair product.
+120,907,2,Terrible experience.
+136,549,5,Awesome!
+32,896,3,Fair product.
+79,788,5,Highly recommended.
+8,140,3,"Okay, but could be better."
+177,892,5,Excellent quality.
+84,512,4,Decent product.
+150,796,5,Awesome!
+154,128,3,"Okay, but could be better."
+53,868,4,"Okay, but could be better."
+65,327,1,Waste of money.
+75,801,2,Waste of money.
+5,93,2,Would not recommend.
+98,885,3,"Not bad, but not great."
+23,198,1,Would not recommend.
+31,931,3,Decent product.
+18,780,2,Waste of money.
+108,648,4,Average quality.
+118,781,2,Would not recommend.
+126,84,1,Terrible experience.
+130,225,2,Disappointing.
+4,14,3,Average quality.
+24,950,5,Highly recommended.
+86,237,1,Would not recommend.
+28,893,5,Best purchase ever!
+140,578,3,"Not bad, but not great."
+108,382,4,Awesome!
+25,688,2,Terrible experience.
+63,739,2,Disappointing.
+149,228,1,Poor quality.
+151,289,1,Would not recommend.
+125,379,3,"Not bad, but not great."
+161,124,3,"Okay, but could be better."
+52,148,1,Would not recommend.
+91,226,1,Waste of money.
+38,306,2,Terrible experience.
+35,693,1,Disappointing.
+30,1055,4,Decent product.
+29,832,4,Great product!
+140,986,1,Terrible experience.
+43,100,5,Great product!
+11,752,3,Fair product.
+35,584,5,Excellent quality.
+33,436,2,Terrible experience.
+151,312,1,Waste of money.
+125,139,1,Would not recommend.
+6,619,3,Average quality.
+60,385,3,Fair product.
+105,24,2,Disappointing.
+53,888,1,Poor quality.
+84,686,3,Fair product.
+88,241,5,Best purchase ever!
+159,728,4,Best purchase ever!
+2,815,5,Highly recommended.
+41,106,4,Awesome!
+94,1021,1,Terrible experience.
+106,397,4,Decent product.
+2,232,5,Highly recommended.
+92,65,2,Waste of money.
+142,2,5,Great product!
+139,897,3,"Okay, but could be better."
+101,1151,5,Best purchase ever!
+33,959,2,Disappointing.
+153,1015,5,Highly recommended.
+129,71,4,Awesome!
+69,26,5,Best purchase ever!
+145,142,2,Disappointing.
+36,528,5,Highly recommended.
+154,976,1,Waste of money.
+20,621,5,Best purchase ever!
+156,159,4,Great product!
+162,354,2,Poor quality.
+46,194,3,"Not bad, but not great."
+122,982,4,Best purchase ever!
+30,838,1,Poor quality.
+132,28,5,Highly recommended.
+109,493,1,Waste of money.
+67,844,3,Decent product.
+80,865,1,Would not recommend.
+75,278,3,"Okay, but could be better."
+95,36,1,Disappointing.
+13,126,3,Average quality.
+125,1046,2,Waste of money.
+177,240,3,Average quality.
+76,461,1,Waste of money.
+102,351,3,Decent product.
+102,818,3,"Okay, but could be better."
+121,193,1,Disappointing.
+28,246,3,Average quality.
+36,610,4,Average quality.
+1,256,4,Best purchase ever!
+44,242,1,Would not recommend.
+83,794,4,"Okay, but could be better."
+108,675,4,Awesome!
+148,826,2,Waste of money.
+130,43,4,Excellent quality.
+11,410,4,Average quality.
+32,35,1,Terrible experience.
+128,114,1,Terrible experience.
+87,1078,1,Waste of money.
+153,204,4,Awesome!
+75,80,1,Poor quality.
+105,646,1,Disappointing.
+157,697,4,Decent product.
+176,965,3,"Okay, but could be better."
+14,64,4,Awesome!
+159,1012,2,Poor quality.
+136,1023,3,"Not bad, but not great."
+99,1117,5,Best purchase ever!
+104,1026,3,"Not bad, but not great."
+11,526,2,Would not recommend.
+62,220,2,Waste of money.
+22,907,5,Great product!
+18,20,3,Fair product.
+110,270,4,"Not bad, but not great."
+101,621,1,Would not recommend.
+67,683,5,Great product!
+48,54,2,Disappointing.
+27,812,2,Terrible experience.
+45,606,5,Great product!
+174,424,4,"Okay, but could be better."
+36,262,1,Terrible experience.
+132,409,3,Fair product.
+120,700,1,Poor quality.
+51,264,5,Excellent quality.
+156,985,5,Great product!
+177,6,3,"Not bad, but not great."
+84,485,2,Disappointing.
+11,731,3,Decent product.
+61,154,4,Great product!
+42,487,4,Great product!
+128,510,1,Disappointing.
+14,620,3,Fair product.
+15,951,2,Terrible experience.
+152,35,3,Average quality.
+3,921,4,Great product!
+113,786,1,Disappointing.
+144,173,1,Waste of money.
+134,497,1,Waste of money.
+159,1107,3,Average quality.
+54,42,3,Fair product.
+58,868,3,Decent product.
+56,375,5,Great product!
+55,329,3,Average quality.
+116,733,5,Awesome!
+134,102,1,Disappointing.
+80,813,3,"Okay, but could be better."
+117,599,5,Awesome!
+116,200,4,Average quality.
+120,261,3,Decent product.
+150,603,5,Great product!
+30,851,1,Disappointing.
+111,354,2,Would not recommend.
+99,295,4,Fair product.
+65,211,1,Terrible experience.
+97,55,4,"Not bad, but not great."
+33,427,1,Terrible experience.
+145,109,3,Decent product.
+147,873,2,Would not recommend.
+34,400,2,Terrible experience.
+119,803,4,Great product!
+145,775,5,Great product!
+96,483,3,Decent product.
+142,278,4,Fair product.
+99,1056,3,Decent product.
+107,1014,2,Terrible experience.
+69,190,3,"Not bad, but not great."
+11,1038,3,"Not bad, but not great."
+127,41,4,"Not bad, but not great."
+175,743,5,Highly recommended.
+108,278,5,Excellent quality.
+87,338,1,Waste of money.
+23,918,5,Awesome!
+36,752,4,Awesome!
+154,26,1,Poor quality.
+116,523,5,Best purchase ever!
+53,1122,1,Terrible experience.
+126,1111,1,Would not recommend.
+41,80,3,Decent product.
+59,920,1,Poor quality.
+147,277,4,Great product!
+43,786,1,Terrible experience.
+133,139,4,Awesome!
+175,699,5,Great product!
+154,416,1,Would not recommend.
+129,548,2,Would not recommend.
+96,662,4,Fair product.
+3,1133,1,Terrible experience.
+36,1005,2,Waste of money.
+151,476,1,Would not recommend.
+144,352,2,Terrible experience.
+5,425,5,Highly recommended.
+177,677,4,Decent product.
+18,839,3,"Not bad, but not great."
+48,581,2,Disappointing.
+53,552,1,Terrible experience.
+14,6,3,Fair product.
+6,771,2,Disappointing.
+87,1080,5,Highly recommended.
+17,643,5,Excellent quality.
+103,353,4,Best purchase ever!
+105,314,4,Decent product.
+124,2,5,Great product!
+145,1015,3,"Okay, but could be better."
+56,1095,1,Terrible experience.
+176,378,1,Would not recommend.
+50,634,3,"Okay, but could be better."
+70,118,2,Terrible experience.
+25,1012,2,Poor quality.
+105,432,5,Great product!
+151,97,4,Decent product.
+102,371,5,Best purchase ever!
+53,700,3,"Okay, but could be better."
+19,310,3,Fair product.
+2,327,1,Poor quality.
+130,465,1,Would not recommend.
+52,717,1,Terrible experience.
+92,992,1,Would not recommend.
+3,404,1,Terrible experience.
+129,508,2,Poor quality.
+157,321,2,Poor quality.
+12,998,3,Decent product.
+10,47,3,Decent product.
+85,281,1,Waste of money.
+144,1136,5,Excellent quality.
+16,1148,5,Highly recommended.
+62,650,5,Awesome!
+154,320,3,"Not bad, but not great."
+85,372,3,Fair product.
+123,726,2,Would not recommend.
+161,731,2,Disappointing.
+36,1033,1,Waste of money.
+42,374,5,Excellent quality.
+153,52,3,"Okay, but could be better."
+109,1138,5,Best purchase ever!
+23,866,1,Terrible experience.
+102,657,5,Best purchase ever!
+87,541,3,Decent product.
+7,746,5,Excellent quality.
+114,142,2,Waste of money.
+161,746,2,Waste of money.
+145,757,1,Disappointing.
+174,1090,3,Average quality.
+155,361,4,Highly recommended.
+40,49,2,Poor quality.
+9,1064,2,Terrible experience.
+30,1035,4,"Not bad, but not great."
+116,841,3,"Okay, but could be better."
+158,275,1,Waste of money.
+124,298,4,Decent product.
+158,2,1,Disappointing.
+33,178,2,Waste of money.
+101,414,5,Great product!
+39,623,5,Great product!
+17,306,4,"Okay, but could be better."
+107,898,5,Excellent quality.
+30,1152,2,Would not recommend.
+46,807,4,Great product!
+115,1110,4,Best purchase ever!
+148,173,5,Best purchase ever!
+79,763,1,Poor quality.
+118,994,1,Terrible experience.
+43,37,5,Highly recommended.
+105,532,4,Awesome!
+79,1098,1,Waste of money.
+151,410,3,Fair product.
+92,953,2,Waste of money.
+141,484,3,"Not bad, but not great."
+87,974,5,Awesome!
+111,651,1,Disappointing.
+123,1148,1,Would not recommend.
+59,54,3,"Okay, but could be better."
+149,999,3,"Okay, but could be better."
+79,1086,4,"Not bad, but not great."
+126,471,1,Poor quality.
+81,602,4,Excellent quality.
+110,770,2,Waste of money.
+50,628,4,"Okay, but could be better."
+114,1109,1,Waste of money.
+49,370,4,Excellent quality.
+102,662,3,"Okay, but could be better."
+128,484,5,Highly recommended.
+56,2,2,Waste of money.
+87,479,5,Awesome!
+115,726,2,Poor quality.
+8,508,5,Great product!
+13,874,1,Terrible experience.
+11,291,2,Poor quality.
+27,407,2,Terrible experience.
+145,263,2,Terrible experience.
+112,793,1,Disappointing.
+30,293,2,Terrible experience.
+29,764,4,"Not bad, but not great."
+149,250,3,Fair product.
+119,911,5,Awesome!
+103,862,4,Average quality.
+80,1047,2,Disappointing.
+180,430,5,Excellent quality.
+90,208,5,Best purchase ever!
+36,438,5,Awesome!
+79,536,2,Would not recommend.
+106,721,4,"Okay, but could be better."
+157,882,3,"Not bad, but not great."
+122,292,4,"Not bad, but not great."
+149,983,5,Best purchase ever!
+69,814,1,Would not recommend.
+98,535,4,Average quality.
+74,585,4,Average quality.
+47,1072,3,"Not bad, but not great."
+32,186,4,"Okay, but could be better."
+94,882,2,Poor quality.
+53,878,5,Great product!
+174,1075,3,Fair product.
+110,1033,4,Awesome!
+25,654,2,Terrible experience.
+143,900,2,Disappointing.
+56,1048,5,Awesome!
+80,1102,1,Poor quality.
+33,442,4,Decent product.
+72,868,3,"Not bad, but not great."
+20,1012,2,Poor quality.
+59,872,1,Terrible experience.
+133,756,2,Waste of money.
+2,809,1,Waste of money.
+104,730,1,Would not recommend.
+150,680,5,Awesome!
+72,286,1,Would not recommend.
+10,1004,3,Average quality.
+99,826,1,Waste of money.
+149,845,1,Poor quality.
+154,909,1,Poor quality.
+32,28,4,Average quality.
+151,875,2,Waste of money.
+45,868,2,Waste of money.
+152,1136,4,Decent product.
+177,750,3,Fair product.
+87,1134,2,Disappointing.
+162,1122,2,Would not recommend.
+176,1012,3,"Not bad, but not great."
+118,436,1,Would not recommend.
+89,501,4,Awesome!
+143,676,5,Excellent quality.
+29,363,3,"Okay, but could be better."
+123,537,2,Disappointing.
+153,81,5,Awesome!
+126,441,1,Would not recommend.
+144,223,4,"Not bad, but not great."
+134,417,4,Awesome!
+30,49,3,Decent product.
+28,659,1,Poor quality.
+24,994,1,Would not recommend.
+29,604,5,Excellent quality.
+74,208,3,Average quality.
+62,703,3,Decent product.
+125,127,5,Best purchase ever!
+117,453,3,"Okay, but could be better."
+175,170,1,Disappointing.
+78,574,5,Excellent quality.
+142,1140,1,Terrible experience.
+36,812,2,Disappointing.
+151,793,1,Poor quality.
+37,523,4,Fair product.
+114,1047,2,Poor quality.
+146,631,3,"Not bad, but not great."
+136,139,2,Poor quality.
+142,429,3,Average quality.
+82,402,5,Great product!
+97,161,3,Fair product.
+113,237,1,Disappointing.
+49,1123,3,"Not bad, but not great."
+49,755,5,Highly recommended.
+134,751,5,Great product!
+7,714,2,Disappointing.
+38,528,5,Highly recommended.
+51,1071,1,Disappointing.
+82,484,1,Poor quality.
+84,564,5,Excellent quality.
+95,696,1,Terrible experience.
+130,143,1,Waste of money.
+14,109,5,Great product!
+87,374,4,Awesome!
+138,519,3,"Okay, but could be better."
+111,853,2,Terrible experience.
+104,309,5,Best purchase ever!
+156,205,4,Best purchase ever!
+148,634,1,Disappointing.
+152,936,5,Best purchase ever!
+90,697,3,"Not bad, but not great."
+19,1058,3,Decent product.
+70,436,2,Disappointing.
+152,655,2,Would not recommend.
+100,976,3,Decent product.
+49,617,1,Would not recommend.
+75,332,3,Average quality.
+56,108,4,Great product!
+159,744,1,Waste of money.
+77,751,5,Best purchase ever!
+106,1054,1,Terrible experience.
+17,200,2,Terrible experience.
+47,572,1,Waste of money.
+110,802,3,"Okay, but could be better."
+53,677,4,"Not bad, but not great."
+38,151,4,Best purchase ever!
+3,337,3,"Okay, but could be better."
+75,70,3,"Okay, but could be better."
+12,61,2,Would not recommend.
+92,1021,5,Excellent quality.
+56,1075,1,Terrible experience.
+122,683,5,Great product!
+123,425,2,Terrible experience.
+127,221,1,Would not recommend.
+180,784,1,Disappointing.
+85,571,1,Would not recommend.
+160,554,5,Great product!
+57,1151,4,Great product!
+50,1127,2,Waste of money.
+97,270,3,"Not bad, but not great."
+137,72,3,Average quality.
+40,935,4,Awesome!
+176,306,3,"Okay, but could be better."
+35,304,5,Best purchase ever!
+23,623,3,"Not bad, but not great."
+24,641,4,"Not bad, but not great."
+91,365,5,Great product!
+39,1046,1,Poor quality.
+135,241,4,Decent product.
+120,136,2,Disappointing.
+92,750,5,Awesome!
+8,706,5,Highly recommended.
+9,1119,1,Disappointing.
+66,444,5,Best purchase ever!
+37,1067,2,Terrible experience.
+96,183,4,Excellent quality.
+77,1123,1,Disappointing.
+121,533,2,Waste of money.
+131,930,4,Decent product.
+111,831,3,"Not bad, but not great."
+160,616,3,Decent product.
+176,556,5,Highly recommended.
+137,40,3,Decent product.
+22,825,2,Would not recommend.
+126,630,2,Waste of money.
+147,881,5,Awesome!
+95,912,1,Poor quality.
+124,24,1,Would not recommend.
+55,233,4,"Not bad, but not great."
+103,281,3,Average quality.
+148,321,5,Great product!
+97,739,5,Excellent quality.
+130,60,5,Highly recommended.
+104,413,5,Great product!
+33,71,3,Fair product.
+1,977,2,Waste of money.
+159,155,2,Would not recommend.
+35,356,1,Poor quality.
+99,56,5,Awesome!
+68,868,1,Would not recommend.
+160,675,2,Would not recommend.
+2,79,4,Awesome!
+126,336,2,Waste of money.
+2,538,3,"Not bad, but not great."
+92,434,3,Fair product.
+30,73,1,Poor quality.
+181,95,5,Best purchase ever!
+111,835,4,Average quality.
+177,717,1,Poor quality.
+177,797,1,Waste of money.
+159,948,3,Decent product.
+43,686,5,Excellent quality.
+157,1122,3,Decent product.
+106,958,1,Terrible experience.
+133,1006,1,Disappointing.
+48,813,3,"Okay, but could be better."
+90,379,3,Fair product.
+27,934,2,Would not recommend.
+38,405,5,Highly recommended.
+62,940,2,Waste of money.
+100,807,5,Excellent quality.
+106,682,3,"Not bad, but not great."
+16,209,4,Average quality.
+145,158,4,Awesome!
+145,735,5,Excellent quality.
+68,378,4,Average quality.
+35,164,2,Would not recommend.
+78,606,1,Terrible experience.
+28,442,2,Poor quality.
+81,722,5,Highly recommended.
+116,54,3,Fair product.
+100,536,5,Highly recommended.
+103,871,1,Would not recommend.
+176,1145,3,Decent product.
+145,456,5,Excellent quality.
+3,183,1,Would not recommend.
+174,577,3,Decent product.
+86,113,4,Average quality.
+46,693,2,Disappointing.
+103,625,3,"Okay, but could be better."
+148,248,4,Highly recommended.
+143,79,2,Disappointing.
+161,1008,3,"Not bad, but not great."
+71,847,1,Terrible experience.
+87,376,1,Disappointing.
+157,81,3,"Okay, but could be better."
+159,954,2,Disappointing.
+57,415,4,"Okay, but could be better."
+14,523,5,Great product!
+49,742,4,Decent product.
+153,1002,2,Waste of money.
+73,429,1,Terrible experience.
+118,644,1,Terrible experience.
+57,819,2,Would not recommend.
+49,1054,2,Disappointing.
+175,770,1,Disappointing.
+43,1044,5,Great product!
+128,832,5,Great product!
+143,462,5,Awesome!
+126,387,4,"Okay, but could be better."
+91,167,2,Terrible experience.
+157,755,2,Would not recommend.
+148,970,2,Would not recommend.
+80,141,2,Poor quality.
+125,607,2,Terrible experience.
+136,789,5,Awesome!
+34,835,4,Highly recommended.
+150,952,2,Poor quality.
+147,409,5,Best purchase ever!
+136,178,5,Great product!
+83,472,2,Poor quality.
+65,487,4,Best purchase ever!
+128,756,3,"Okay, but could be better."
+88,716,3,Fair product.
+62,686,2,Disappointing.
+78,1145,1,Terrible experience.
+69,317,4,Fair product.
+1,1040,3,Decent product.
+132,437,2,Would not recommend.
+34,742,2,Would not recommend.
+31,791,4,Awesome!
+81,458,5,Awesome!
+41,1015,5,Great product!
+62,409,4,Decent product.
+147,818,2,Waste of money.
+12,238,4,"Not bad, but not great."
+110,1126,5,Awesome!
+147,87,5,Great product!
+60,690,4,"Not bad, but not great."
+103,919,2,Poor quality.
+6,395,5,Highly recommended.
+82,782,3,Decent product.
+22,680,4,Highly recommended.
+85,319,4,Best purchase ever!
+106,515,5,Awesome!
+122,769,3,Average quality.
+51,1030,4,Best purchase ever!
+64,726,2,Would not recommend.
+129,780,3,"Not bad, but not great."
+127,187,5,Best purchase ever!
+103,493,1,Terrible experience.
+47,548,5,Best purchase ever!
+29,268,3,Average quality.
+145,726,3,"Not bad, but not great."
+148,319,2,Waste of money.
+110,1059,5,Best purchase ever!
+113,651,5,Best purchase ever!
+127,73,5,Highly recommended.
+100,707,4,Highly recommended.
+45,77,5,Best purchase ever!
+112,317,1,Terrible experience.
+118,708,3,Fair product.
+157,269,5,Great product!
+176,200,1,Waste of money.
+177,900,1,Would not recommend.
+48,1090,4,"Okay, but could be better."
+17,681,3,Fair product.
+66,850,3,"Okay, but could be better."
+150,750,5,Best purchase ever!
+16,952,5,Awesome!
+47,56,2,Terrible experience.
+31,1035,5,Great product!
+147,801,1,Poor quality.
+128,622,2,Would not recommend.
+34,607,1,Poor quality.
+119,649,1,Disappointing.
+36,1080,4,"Okay, but could be better."
+21,524,5,Excellent quality.
+21,165,5,Highly recommended.
+134,37,1,Would not recommend.
+41,1143,1,Would not recommend.
+115,159,4,Highly recommended.
+141,872,3,"Okay, but could be better."
+57,474,5,Best purchase ever!
+10,358,1,Disappointing.
+153,217,2,Terrible experience.
+158,409,1,Would not recommend.
+119,1066,4,Best purchase ever!
+60,299,3,"Not bad, but not great."
+52,1060,5,Highly recommended.
+143,959,5,Great product!
+154,615,2,Poor quality.
+146,495,4,Great product!
+42,1117,1,Poor quality.
+47,1006,3,Average quality.
+125,50,4,"Okay, but could be better."
+38,308,2,Terrible experience.
+17,432,3,Decent product.
+123,397,3,"Okay, but could be better."
+156,945,4,Highly recommended.
+146,1093,5,Great product!
+73,192,5,Awesome!
+150,1055,3,Fair product.
+48,204,5,Best purchase ever!
+155,785,1,Terrible experience.
+6,121,3,Average quality.
+16,128,5,Highly recommended.
+150,533,3,"Not bad, but not great."
+66,658,2,Disappointing.
+124,278,5,Excellent quality.
+160,906,3,Fair product.
+103,281,1,Poor quality.
+38,477,2,Waste of money.
+149,159,4,Decent product.
+131,1077,5,Excellent quality.
+57,267,5,Awesome!
+110,512,2,Disappointing.
+45,1110,5,Awesome!
+98,324,4,Decent product.
+175,151,4,Great product!
+33,683,4,Highly recommended.
+155,807,3,Decent product.
+63,912,4,Average quality.
+94,102,1,Disappointing.
+131,529,3,Average quality.
+37,722,4,Great product!
+88,450,5,Awesome!
+108,304,5,Excellent quality.
+20,897,5,Best purchase ever!
+3,175,4,"Not bad, but not great."
+52,1061,3,Average quality.
+141,653,4,Awesome!
+105,44,5,Best purchase ever!
+4,348,5,Awesome!
+68,275,4,Fair product.
+51,18,4,Highly recommended.
+54,185,3,Fair product.
+47,843,2,Waste of money.
+128,128,1,Waste of money.
+38,792,5,Awesome!
+23,633,2,Terrible experience.
+162,974,4,Fair product.
+153,747,1,Waste of money.
+181,265,4,Fair product.
+91,1027,3,Decent product.
+25,433,1,Disappointing.
+135,754,5,Highly recommended.
+129,30,3,Decent product.
+39,728,5,Best purchase ever!
+147,1121,1,Would not recommend.
+88,187,2,Would not recommend.
+21,69,4,"Not bad, but not great."
+145,267,3,"Not bad, but not great."
+117,644,5,Great product!
+12,1073,3,Decent product.
+119,825,2,Waste of money.
+11,1008,5,Excellent quality.
+82,525,3,Fair product.
+58,691,1,Would not recommend.
+64,807,4,Highly recommended.
+10,956,5,Best purchase ever!
+34,1073,1,Waste of money.
+41,69,3,"Okay, but could be better."
+27,258,2,Waste of money.
+107,714,1,Poor quality.
+85,1083,5,Best purchase ever!
+33,41,2,Terrible experience.
+132,194,1,Terrible experience.
+19,1004,5,Highly recommended.
+74,696,4,Highly recommended.
+103,397,4,Excellent quality.
+80,514,2,Waste of money.
+147,362,5,Highly recommended.
+70,540,2,Would not recommend.
+96,77,3,Average quality.
+142,595,1,Waste of money.
+13,769,4,Awesome!
+26,943,4,Great product!
+23,23,5,Awesome!
+38,59,2,Waste of money.
+130,414,2,Terrible experience.
+142,547,2,Would not recommend.
+16,569,4,Excellent quality.
+42,529,4,Highly recommended.
+53,78,2,Terrible experience.
+78,884,2,Terrible experience.
+1,929,1,Poor quality.
+62,682,3,Decent product.
+127,828,1,Disappointing.
+126,421,4,Best purchase ever!
+125,239,2,Waste of money.
+39,57,3,Average quality.
+9,3,5,Awesome!
+111,874,2,Poor quality.
+86,183,4,Excellent quality.
+32,258,5,Highly recommended.
+155,228,5,Great product!
+31,969,2,Poor quality.
+29,244,3,"Not bad, but not great."
+137,672,5,Best purchase ever!
+67,119,2,Waste of money.
+176,1082,5,Awesome!
+154,513,2,Waste of money.
+95,705,3,"Not bad, but not great."
+131,673,1,Would not recommend.
+23,652,2,Terrible experience.
+143,362,5,Great product!
+46,472,3,Average quality.
+74,830,2,Poor quality.
+37,281,3,Average quality.
+106,1082,4,"Okay, but could be better."
+153,716,4,Highly recommended.
+94,709,5,Highly recommended.
+139,132,5,Highly recommended.
+112,565,3,Average quality.
+135,1065,5,Awesome!
+129,491,5,Awesome!
+138,365,4,"Not bad, but not great."
+68,76,5,Best purchase ever!
+67,328,5,Highly recommended.
+68,1023,5,Excellent quality.
+109,616,4,Excellent quality.
+177,322,5,Excellent quality.
+147,1076,2,Waste of money.
+100,24,2,Poor quality.
+66,794,4,Fair product.
+130,136,2,Terrible experience.
+43,1125,5,Awesome!
+46,273,5,Highly recommended.
+59,195,3,"Okay, but could be better."
+12,518,3,"Okay, but could be better."
+129,128,5,Great product!
+157,440,1,Poor quality.
+96,797,3,Average quality.
+71,336,5,Highly recommended.
+36,402,1,Poor quality.
+157,1034,4,"Okay, but could be better."
+11,20,3,"Not bad, but not great."
+34,1019,4,"Okay, but could be better."
+94,762,4,Average quality.
+77,290,1,Disappointing.
+140,353,3,"Okay, but could be better."
+15,617,5,Awesome!
+113,735,1,Terrible experience.
+32,216,1,Poor quality.
+64,1100,2,Terrible experience.
+135,165,3,Fair product.
+21,663,2,Terrible experience.
+85,86,5,Awesome!
+150,605,2,Poor quality.
+85,441,2,Disappointing.
+43,1034,1,Waste of money.
+98,565,5,Awesome!
+107,1136,3,"Not bad, but not great."
+140,181,2,Disappointing.
+68,706,1,Disappointing.
+130,427,4,Decent product.
+136,896,3,Decent product.
+154,108,3,"Okay, but could be better."
+106,234,1,Terrible experience.
+63,664,2,Poor quality.
+116,448,5,Highly recommended.
+48,834,4,Highly recommended.
+107,605,1,Would not recommend.
+68,532,3,Decent product.
+135,557,2,Disappointing.
+98,103,2,Would not recommend.
+94,623,4,"Okay, but could be better."
+58,271,4,Highly recommended.
+83,988,3,"Not bad, but not great."
+77,41,5,Best purchase ever!
+124,900,4,Fair product.
+148,1094,3,Decent product.
+44,933,2,Poor quality.
+64,922,3,"Not bad, but not great."
+67,652,5,Great product!
+174,239,2,Waste of money.
+92,986,1,Terrible experience.
+136,652,4,Great product!
+99,166,5,Highly recommended.
+25,18,2,Would not recommend.
+181,301,3,"Okay, but could be better."
+36,618,2,Poor quality.
+133,1005,2,Poor quality.
+36,509,4,"Okay, but could be better."
+180,783,1,Waste of money.
+116,1058,3,"Not bad, but not great."
+67,212,3,"Okay, but could be better."
+137,740,5,Highly recommended.
+16,654,1,Waste of money.
+58,149,5,Best purchase ever!
+18,508,2,Would not recommend.
+156,113,3,"Okay, but could be better."
+27,906,1,Poor quality.
+124,912,4,Highly recommended.
+113,1140,5,Great product!
+92,91,4,Decent product.
+51,953,2,Waste of money.
+22,349,1,Poor quality.
+21,323,4,Fair product.
+86,188,1,Would not recommend.
+9,878,2,Disappointing.
+33,76,3,"Not bad, but not great."
+41,550,4,Fair product.
+35,460,1,Waste of money.
+156,698,3,Average quality.
+100,411,4,Decent product.
+161,828,5,Awesome!
+131,693,4,Decent product.
+174,557,2,Poor quality.
+9,971,4,Average quality.
+89,262,1,Poor quality.
+112,590,1,Waste of money.
+102,124,3,"Not bad, but not great."
+35,1038,4,Awesome!
+135,495,4,Decent product.
+15,117,5,Highly recommended.
+10,1052,3,Average quality.
+110,438,3,"Not bad, but not great."
+82,140,3,Fair product.
+55,241,2,Waste of money.
+108,216,3,"Not bad, but not great."
+77,292,3,Average quality.
+68,940,2,Waste of money.
+76,846,2,Terrible experience.
+142,662,2,Terrible experience.
+38,966,4,"Not bad, but not great."
+45,1112,4,Excellent quality.
+88,738,2,Waste of money.
+97,250,1,Poor quality.
+95,424,1,Waste of money.
+59,127,3,"Okay, but could be better."
+41,1121,4,"Okay, but could be better."
+139,854,4,Great product!
+90,324,3,Average quality.
+85,1147,5,Great product!
+75,165,3,"Not bad, but not great."
+110,328,1,Terrible experience.
+93,274,3,Average quality.
+45,537,1,Disappointing.
+45,211,5,Best purchase ever!
+54,639,2,Would not recommend.
+94,931,2,Poor quality.
+93,853,4,Awesome!
+39,206,1,Terrible experience.
+9,504,1,Waste of money.
+156,1146,5,Excellent quality.
+73,715,2,Disappointing.
+30,671,2,Poor quality.
+4,120,2,Poor quality.
+152,568,3,"Okay, but could be better."
+127,1123,5,Highly recommended.
+57,437,4,Highly recommended.
+10,524,1,Would not recommend.
+120,753,4,Fair product.
+99,428,1,Waste of money.
+132,657,4,Great product!
+157,946,2,Poor quality.
+57,621,4,Average quality.
+103,58,4,"Not bad, but not great."
+33,774,4,"Okay, but could be better."
+150,450,2,Disappointing.
+115,850,3,Decent product.
+33,1093,5,Best purchase ever!
+5,968,2,Waste of money.
+143,856,5,Highly recommended.
+37,304,2,Waste of money.
+101,840,3,"Okay, but could be better."
+83,366,3,"Not bad, but not great."
+131,274,5,Awesome!
+61,797,4,"Not bad, but not great."
+63,795,2,Would not recommend.
+57,970,3,"Okay, but could be better."
+8,208,4,Excellent quality.
+42,716,1,Would not recommend.
+32,687,1,Disappointing.
+133,594,5,Awesome!
+135,363,5,Excellent quality.
+32,39,1,Waste of money.
+96,120,3,Fair product.
+42,1088,5,Great product!
+135,574,3,Average quality.
+150,613,2,Poor quality.
+116,798,4,"Okay, but could be better."
+33,773,4,Great product!
+147,717,3,Decent product.
+62,767,3,"Okay, but could be better."
+84,575,3,"Okay, but could be better."
+151,715,4,Best purchase ever!
+37,857,5,Excellent quality.
+136,1116,1,Disappointing.
+130,309,3,"Okay, but could be better."
+133,28,4,Awesome!
+105,986,4,Excellent quality.
+132,669,2,Terrible experience.
+136,773,2,Disappointing.
+25,293,2,Poor quality.
+115,817,1,Would not recommend.
+35,942,3,Fair product.
+86,728,4,"Not bad, but not great."
+144,193,5,Best purchase ever!
+8,557,2,Terrible experience.
+81,566,2,Waste of money.
+162,722,4,Awesome!
+38,865,2,Poor quality.
+24,578,1,Terrible experience.
+140,399,4,Fair product.
+17,746,1,Waste of money.
+80,1064,2,Terrible experience.
+59,1101,5,Excellent quality.
+83,534,3,"Not bad, but not great."
+147,1046,1,Would not recommend.
+10,515,4,"Okay, but could be better."
+174,1014,3,"Not bad, but not great."
+83,662,1,Poor quality.
+156,1060,1,Waste of money.
+79,543,1,Terrible experience.
+153,639,2,Waste of money.
+11,517,1,Disappointing.
+70,647,3,Fair product.
+47,822,2,Poor quality.
+98,171,4,Decent product.
+123,29,5,Best purchase ever!
+125,697,4,Awesome!
+63,333,1,Disappointing.
+11,384,2,Disappointing.
+41,17,3,"Okay, but could be better."
