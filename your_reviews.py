@@ -85,6 +85,9 @@ def main():
     conn = init_connection()
     reviews = get_user_reviews(conn)
     st.markdown(background_image_reviews, unsafe_allow_html=True)
+    st.markdown("""
+    <h1 style='text-align: center;color: white'>YOUR REVIEWS</h1>
+    """, unsafe_allow_html=True)
     
     for review_id, product_id, rating, review_text, product_name, image_url, store_name, price in reviews:
         st.markdown(
@@ -95,7 +98,7 @@ def main():
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.08);
                 margin-bottom: 20px;
                 display: flex;
-                background-color: #96d6a0;
+                background-color: white;
             '>
                 <div style='flex: 1; padding: 10px;'>
                     <img src='{image_url}' style='width:200px;height:200px; object-fit: cover;'>
