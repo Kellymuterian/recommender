@@ -92,7 +92,9 @@ def main():
     st.markdown(background_image_rate, unsafe_allow_html=True)
     username, user_id = auth.get_user_info(conn)
     
-    st.title("Review Products")
+    st.markdown("""
+            <h1 style='text-align: center;color: black'>REVIEW PRODUCTS</h1>
+            """, unsafe_allow_html=True)
     
     # Extract product ID from the query parameters
     product_id = st.query_params.get('product_id', None)
@@ -115,13 +117,14 @@ def main():
                     st.image(image_url, use_column_width=True)
             with col2:
                 st.write(product_name)
-            
+                
                 # Display the review form for each product
                 rating = st.slider("Rating:", 1, 5, 3, key=f"rating_{product_id}")
                 review_text = st.text_area("Review:", key=f"review_{product_id}")
                 if st.button("Submit", key=f"submit_button_{product_id}"):
                     insert_review(conn, user_id, product_id, rating, review_text)
                     st.success("Review submitted successfully!")
+            st.markdown("<hr style='border-top: 2px solid #333; width:100%;'>", unsafe_allow_html=True)
 
     else:
         # Product ID provided, display the review form for the specific product

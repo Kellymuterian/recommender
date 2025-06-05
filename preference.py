@@ -1,6 +1,6 @@
 import streamlit as st
 import mysql.connector
-
+from styles import background_image_preference
 # Function to initialize database connection
 def init_connection():
     return mysql.connector.connect(
@@ -47,7 +47,9 @@ def save_user_preferences(conn, user_id, preferences):
 
 # Function to display preference page
 def preference_page(conn):
-    st.title("Manage Preferences")
+    st.markdown("""
+            <h1 style='text-align: center;color: black'>MANAGE PREFERENCES</h1>
+            """, unsafe_allow_html=True)
     
     # Fetch categories from the products table
     categories = get_categories(conn)
@@ -91,6 +93,7 @@ def preference_page(conn):
 # Main function
 def main():
     conn = init_connection()
+    st.markdown(background_image_preference, unsafe_allow_html=True)
     if "authenticated" in st.session_state and st.session_state["authenticated"]:
         preference_page(conn)
     else:
